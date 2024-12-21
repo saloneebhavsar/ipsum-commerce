@@ -69,7 +69,7 @@ export default function ProductListingPage({
         fluids for hydrodynamic applications are called power-transmission oils.
         Secondly, hydraulic fluids for hydrostatic application are called
         hydraulic oils.
-        <button className="text-green hover:underline ml-2">Read more.</button>
+        <button className="text-green hover:underline ml-2">Read more</button>
       </p>
       <div className="flex gap-4">
         <FilterContextProvider>
