@@ -53,7 +53,7 @@ export default function Filter({
         <ul className="my-3">
           {options.map((option) => (
             <li key={option} className="border-t border-primary-lighter py-3">
-              <button onClick={() => handleFilterChange(type, option)}>
+              <button onClick={() => handleFilterChange(type, option)} className="w-full text-left">
                 {option}
               </button>
             </li>
