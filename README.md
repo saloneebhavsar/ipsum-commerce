@@ -47,4 +47,4 @@ src/
 
 ## Deployment
 
-The application is deployed on Vercel and can be accessed at: [Your-Deployment-URL]
+The application is deployed on Vercel and can be accessed at: [Ipsum](https://ipsum-commerce.vercel.app/)
