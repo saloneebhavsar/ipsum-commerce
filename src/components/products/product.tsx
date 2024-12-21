@@ -27,7 +27,9 @@ export default function Product({ product }: { product: IProduct }) {
       </div>
       <div className="order-1 min-h-40 md:order-2">
         <p className="my-4 text-sm font-semibold text-primary">{brand}</p>
-        <h2 className="mb-8 text-2xl font-bold text-black">{name}</h2>
+        <h2 className="mb-8 text-2xl font-bold text-black line-clamp-2 md:line-clamp-none">
+        {name}
+      </h2>
       </div>
       <div className="order-3">
         <div className="mt-2 flex flex-col space-y-2 sm:flex-row sm:items-center sm:space-x-6 sm:space-y-0">
